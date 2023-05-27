@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Binary Tree Visualization</title>
+    <style>
+        #tree-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .node text {
+            font-size: 14px;
+        }
+
+        .node {
+            fill: #ffffff;
+            stroke: #000000;
+            stroke-width: 2px;
+            cursor: pointer;
+        }
+
+        .highlighted {
+            fill:#17A9BF !important;
+        }
+    </style>
+</head>
+<body>
+    <h2>Binary Tree Visualization</h2>
+    <p>Enter the binary tree as an array:</p>
+    <input type="text" id="tree-input" placeholder="Enter the binary tree array" />
+    <button onclick="drawTree()">Submit</button>
+
+    <div id="tree-container"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

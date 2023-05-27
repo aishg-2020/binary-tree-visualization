@@ -1,0 +1,23 @@
+{
+  "name": "binary-tree-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishg-2020/binary-tree-visualization.git"
+  },
+  "author": "Aish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aishg-2020/binary-tree-visualization/issues"
+  },
+  "homepage": "https://github.com/aishg-2020/binary-tree-visualization#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
